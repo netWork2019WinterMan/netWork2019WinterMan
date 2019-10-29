@@ -36,18 +36,26 @@ string Guest
 int GuestNo
 
 ・関数
-AccessRoom()
-SetGuestNo()
-EscapeRoom()
-ChangeRule()
+bool AccessRoom() //ルームにアクセスしてルームが一つでも存在するかどうかを判定する
+void SetGuestNo() //ルームに入った場合0からゲストに番号を割り振る
+EscapeRoom() //ルームから抜ける
+		・ホストの場合
+			ゲストの中で番号が一番小さい者をホストに変えて抜ける
+		・ゲストの場合
+			抜けるゲストの番号より大きい者たちの番号を一つづつ減らして抜ける
+
+
+ChangeRule() //ホストがルールを変更する
 
 
 ・ゲームプレイ時に渡す変数
-rule
-Host
-Guest
-GuestNo
+rule //ruleを参照してそのruleに合った処理を決める
 
+//ゲームプレイ時の順番に使用する///
+Host
+Guest 
+GuestNo
+//////////////////////////////////
 
 
 
