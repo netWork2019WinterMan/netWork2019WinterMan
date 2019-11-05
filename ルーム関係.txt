@@ -33,7 +33,7 @@ string roomID
 enum rule
 string Host
 string Guest
-int GuestNo
+static int GuestNo
 
 ・関数
 bool AccessRoom() //ルームにアクセスしてルームが一つでも存在するかどうかを判定する
