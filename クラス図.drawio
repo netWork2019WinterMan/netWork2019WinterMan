@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-05T03:34:13.869Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="IakLSPOMNONB16GXtSOC" version="12.2.0" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-05T03:41:31.253Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="kDaFDctm9d9KZV9iSYxg" version="12.2.0" type="github" pages="1">
   <diagram id="VOGU1n00awtJ55gnDfI6" name="Page-1">
-    <mxGraphModel dx="808" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="581" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -277,6 +277,12 @@
             <mxPoint x="420" y="760" as="sourcePoint"/>
             <mxPoint x="426" y="820" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GOF_6MWSZSLnrf9PYKiB-51" value="Host" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="481" y="88.5" width="47" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="GOF_6MWSZSLnrf9PYKiB-52" value="Guest" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="90" width="44" height="44" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
