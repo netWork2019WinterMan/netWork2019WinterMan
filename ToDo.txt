@@ -2,6 +2,7 @@
 ・UI、演出	指の合計値:GetNumberValue(); 指の予想本数:_finger._setValue; 自分の上げる本数:_fingerNumber;
 ・指の回転、変形
 ・音の追加
+・拳のフェードアウト
 
 ・CPUの強さ設定、ルールの追加
 ・人数によって敵の手の増減
