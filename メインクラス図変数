@@ -1,0 +1,14 @@
+メインクラス図変数
+
+_rule._playerMax			// 最初のルールで決めたプレイヤーの最大人数
+_playerNumber 				// ﾌﾟﾚｲﾔｰの識別番号
+_nowPlayer = MAX_PLAYER;	// 現在参加しているﾌﾟﾚｲﾔｰの数
+_nextNumber 				// 次のﾌﾟﾚｲﾔｰの識別番号
+_numberValue				// 合計の数値
+numberValue					// 上と比較する為の数値
+_fingerValue 				// 現在の指の総数
+fingerValue					// 上と指の本数を比較する為の数値
+GetFingerNumber				// 各プレイヤーの上げた指の本数
+
+_nextNumber					// 次のプレイヤーの識別番号
+_playerNumber				// プレイヤーの識別番号
