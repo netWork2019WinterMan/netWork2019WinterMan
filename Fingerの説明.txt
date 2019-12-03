@@ -1,0 +1,28 @@
+struct Finger
+{
+	OYAKO _oyako;
+
+	VECTOR2 posLeft;//左拳の座標
+	VECTOR2 posRight;//右拳の座標
+
+	int _playerNumber = 0;//ﾌﾟﾚｲﾔｰの識別番号
+	int _number = 0;//挙げる指の数
+
+	int _setValue = 0;//指の総数の予想
+	int _nowNumber = 2;//現在の指の数
+
+	//カウント（コントローラーの状態で増減する）
+	//（厳密に言えば増減するのではなくコントローラの状態を常に代入している）
+	float _pushCount = 0;（４０を越えると判定に入る）
+	int w, h;
+
+	//親指の画像で使用（上げ下げの時の変形処理）
+	//変形時のサイズ
+	float _size = 1.0f;
+	//アングル
+	float _angle = 1.0f;
+	float _z = 0.0f;
+
+	//判定後に値があっていた場合の手のフェードアウト処理（画像変形用）
+	float _fadeout = 0.0f;
+};
