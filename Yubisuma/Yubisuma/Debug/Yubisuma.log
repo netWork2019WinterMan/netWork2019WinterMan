@@ -1,0 +1,8 @@
+﻿  Client.cpp
+  main.cpp
+  Sock.cpp
+d:\指スマ\yubisuma\yubisuma\sock.cpp(83): warning C4305: '引数': 'int' から 'u_short' へ切り詰めます。
+d:\指スマ\yubisuma\yubisuma\sock.cpp(83): warning C4309: '引数': 定数値が切り捨てられました。
+d:\指スマ\yubisuma\yubisuma\sock.cpp(217): warning C4477: 'printf' : 書式文字列 '%s' には、型 'char *' の引数が必要ですが、可変個引数 1 は型 'int (__stdcall *)(void)' です
+  コードを生成中...
+  Yubisuma.vcxproj -> D:\指スマ\Yubisuma\Debug\Yubisuma.exe
